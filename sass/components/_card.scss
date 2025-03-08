@@ -12,9 +12,9 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: $radius-small;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem $shadow-main;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
     &--front {
       background-color: white;
     }
